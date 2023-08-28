@@ -1,0 +1,241 @@
+.welcome-container {
+  background: linear-gradient(to right, #87CEEB, #1E90FF);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.animation-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 70%;
+  text-align: center;
+  animation: fade-in 1s ease-in-out;
+}
+
+.animation-welcome,
+.animation-link {
+  opacity: 0;
+}
+
+.animation-welcome {
+  animation: fade-in 1s ease-in-out 0.5s forwards;
+}
+
+.animation-link {
+  animation: fade-in 1s ease-in-out 1s forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+.btn-circle {
+  border-radius: 0%;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  text-align: center;
+  font-size: 14px;
+}
+
+.btn-circle.btn-sm {
+  width: 24px;
+  height: 24px;
+  font-size: 12px;
+}
+
+/* Colors */
+.btn-circle.btn-success {
+  background-color: green;
+  color: white;
+}
+
+.btn-circle.btn-danger {
+  background-color: red;
+  color: white;
+  pointer-events: none; /* Disable hover and click */
+}
+
+.btn-circle.btn-danger:hover {
+  background-color: red; /* Keep the red color for btn-danger on hover */
+  color: white;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+#loginpagecss
+
+.login-container {
+  background: linear-gradient(to right, #f06d06, #ff9400);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+  animation: fade-in 1s ease-in-out;
+}
+
+.login-heading {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.successMessage {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+.errorContainer {
+  margin-top: 20px;
+}
+
+.error-text {
+  color: red;
+}
+
+.error-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.error-item {
+  color: red;
+}
+
+.login-form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-button {
+  background-color: #1e90ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.login-button:hover {
+  background-color: #007bff;
+  transform: scale(1.05);
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.login-container {
+  background: linear-gradient(to right, #87CEEB, #1E90FF);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  text-align: center;
+  animation: fade-in 1s ease-in-out;
+
+  /* Center the card within the login container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
